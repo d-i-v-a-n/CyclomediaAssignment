@@ -55,7 +55,7 @@ namespace Persistence.Migrations
                     b.HasIndex("TvMazeId")
                         .IsUnique();
 
-                    b.ToTable("Episodes");
+                    b.ToTable("Episodes", (string)null);
                 });
 
             modelBuilder.Entity("Persistence.Entities.Season", b =>
@@ -86,7 +86,7 @@ namespace Persistence.Migrations
                     b.HasIndex("TvMazeId")
                         .IsUnique();
 
-                    b.ToTable("Seasons");
+                    b.ToTable("Seasons", (string)null);
                 });
 
             modelBuilder.Entity("Persistence.Entities.Show", b =>
@@ -112,7 +112,7 @@ namespace Persistence.Migrations
                     b.HasIndex("TvMazeId")
                         .IsUnique();
 
-                    b.ToTable("Shows");
+                    b.ToTable("Shows", (string)null);
                 });
 
             modelBuilder.Entity("Persistence.Entities.Episode", b =>
