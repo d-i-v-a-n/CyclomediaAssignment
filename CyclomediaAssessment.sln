@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraper", "Scraper\Scraper.csproj", "{AA26BBE7-7653-4702-A202-2E31BC4EEF06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{87A21E02-59FD-437D-9D7F-4687F81F1938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AA26BBE7-7653-4702-A202-2E31BC4EEF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA26BBE7-7653-4702-A202-2E31BC4EEF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA26BBE7-7653-4702-A202-2E31BC4EEF06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A21E02-59FD-437D-9D7F-4687F81F1938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A21E02-59FD-437D-9D7F-4687F81F1938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A21E02-59FD-437D-9D7F-4687F81F1938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A21E02-59FD-437D-9D7F-4687F81F1938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

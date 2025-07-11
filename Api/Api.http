@@ -1,0 +1,9 @@
+@Api_HostAddress = http://localhost:5296
+
+GET {{Api_HostAddress}}/shows/search?name=under
+Accept: application/json
+###
+
+GET {{Api_HostAddress}}/shows/1/episodes
+Accept: application/json
+###
