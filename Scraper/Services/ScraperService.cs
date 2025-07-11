@@ -34,6 +34,12 @@ internal sealed class ScraperService
 
             foreach (var show in shows)
             {
+                if(show.TvMazeId <= maxTvMazeId)
+                {
+                    _logger.LogInformation("Skipping show {Name} (ID: {TvMazeId}), already processed", show.Name, show.TvMazeId);
+                    continue;
+                }
+
                 _logger.LogInformation("Processing show {Name} (ID: {TvMazeId}), page {page}", show.Name, show.TvMazeId, page);
                 var seasons = (await _apiClient.GetSeasonsForShowAsync(show.TvMazeId, cancellationToken)).ToList();
 
